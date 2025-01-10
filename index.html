@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
+      margin: 0;
+      color: #fff;
+      background-color: black;
+    }
+
+    canvas {
+      border: 1px solid white;
+    }
+
+    .flex-container {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    img {
+      width: 100px;
+      right: 200px;
+      top: 100px;
+      position: absolute;
+    }
+  </style>
+  <title>Game Pikun</title>
+</head>
+
+<body>
+  <div class="flex-container">
+    <p id="memorizing-time">Memorizing Time: 10</p>
+    <p id="health">Health: ❤️❤️❤️</p>
+    <img src="./arrow.jpg" alt="">
+  </div>
+  <canvas id="canvas"></canvas>
+  <script src="./script.js"></script>
+</body>
+
+</html>
